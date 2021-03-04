@@ -7,9 +7,12 @@
 
 import SwiftUI
 
-import SwiftUI
-
 struct ContentView: View {
+    init() {
+        UITabBar.appearance().isTranslucent = false
+        UITabBar.appearance().barTintColor = UIColor(Color("DMS"))
+        UITabBar.appearance().unselectedItemTintColor = UIColor(Color("lightDMS"))
+    }
     var body: some View {
         TabView {
             MealView()
@@ -33,7 +36,7 @@ struct ContentView: View {
                     Image(systemName: "person.circle")
                     Text("마이페이지")
                 }
-        }
+        }.accentColor(Color.white)
     }
 }
 

@@ -41,7 +41,6 @@
 			isa = PBXGroup;
 			children = (
 				D9EE7AB525F0CBF100A38949 /* SmallDMS */,
-				D9EE7AB425F0CBF100A38949 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
@@ -51,6 +50,7 @@
 				D9EE7AB325F0CBF100A38949 /* SmallDMS.app */,
 			);
 			name = Products;
+			path = ..;
 			sourceTree = "<group>";
 		};
 		D9EE7AB525F0CBF100A38949 /* SmallDMS */ = {
@@ -60,6 +60,7 @@
 				D9EE7AB825F0CBF100A38949 /* ContentView.swift */,
 				D9EE7ACB25F0E9CA00A38949 /* NetworkManager.swift */,
 				D9EE7AC725F0CC1000A38949 /* MealView.swift */,
+				D9EE7AB425F0CBF100A38949 /* Products */,
 				D9EE7ABA25F0CBF300A38949 /* Assets.xcassets */,
 				D9EE7ABF25F0CBF300A38949 /* Info.plist */,
 				D9EE7ABC25F0CBF300A38949 /* Preview Content */,
