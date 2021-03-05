@@ -10,11 +10,11 @@ import SwiftUI
 struct ContentView: View {
     init() {
         UITabBar.appearance().isTranslucent = false
-        UITabBar.appearance().barTintColor = UIColor(Color("DMS"))
-        UITabBar.appearance().unselectedItemTintColor = UIColor(Color("lightDMS"))
+        UITabBar.appearance().barTintColor = UIColor(Color("DMS")) // 바 배경 색
+        UITabBar.appearance().unselectedItemTintColor = UIColor(Color("lightDMS")) // 선택안한 아이템 색
     }
     var body: some View {
-        TabView {
+        TabView { // 탭바
             MealView()
                 .tabItem {
                     Image(systemName: "pencil.circle")
@@ -36,7 +36,7 @@ struct ContentView: View {
                     Image(systemName: "person.circle")
                     Text("마이페이지")
                 }
-        }.accentColor(Color.white)
+        }.accentColor(Color.white) // 선택된 아이템 색
     }
 }
 
