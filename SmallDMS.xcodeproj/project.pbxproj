@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D966A1E225FF6E750034F516 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9EE7ACB25F0E9CA00A38949 /* NetworkManager.swift */; };
+		D9D892DC25FF6B4C00A1D5DC /* SmallWatchDMS WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = D9D892DB25FF6B4C00A1D5DC /* SmallWatchDMS WatchKit App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		D9D892E125FF6B4D00A1D5DC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D9D892E025FF6B4D00A1D5DC /* Assets.xcassets */; };
+		D9D892E825FF6B4E00A1D5DC /* SmallWatchDMS WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = D9D892E725FF6B4E00A1D5DC /* SmallWatchDMS WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		D9D892ED25FF6B4E00A1D5DC /* SmallDMSApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9D892EC25FF6B4E00A1D5DC /* SmallDMSApp.swift */; };
+		D9D892EF25FF6B4E00A1D5DC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9D892EE25FF6B4E00A1D5DC /* ContentView.swift */; };
+		D9D892F725FF6B4F00A1D5DC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D9D892F625FF6B4F00A1D5DC /* Assets.xcassets */; };
+		D9D892FA25FF6B4F00A1D5DC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D9D892F925FF6B4F00A1D5DC /* Preview Assets.xcassets */; };
 		D9EE7AB725F0CBF100A38949 /* SmallDMSApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9EE7AB625F0CBF100A38949 /* SmallDMSApp.swift */; };
 		D9EE7AB925F0CBF100A38949 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9EE7AB825F0CBF100A38949 /* ContentView.swift */; };
 		D9EE7ABB25F0CBF300A38949 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D9EE7ABA25F0CBF300A38949 /* Assets.xcassets */; };
@@ -15,7 +23,59 @@
 		D9EE7ACC25F0E9CA00A38949 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9EE7ACB25F0E9CA00A38949 /* NetworkManager.swift */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		D9D892DD25FF6B4C00A1D5DC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D9EE7AAB25F0CBF100A38949 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D9D892DA25FF6B4C00A1D5DC;
+			remoteInfo = "SmallWatchDMS WatchKit App";
+		};
+		D9D892E925FF6B4E00A1D5DC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D9EE7AAB25F0CBF100A38949 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D9D892E625FF6B4E00A1D5DC;
+			remoteInfo = "SmallWatchDMS WatchKit Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		D9D892FF25FF6B4F00A1D5DC /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				D9D892DC25FF6B4C00A1D5DC /* SmallWatchDMS WatchKit App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D9D8930225FF6B4F00A1D5DC /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				D9D892E825FF6B4E00A1D5DC /* SmallWatchDMS WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		D9D892D825FF6B4C00A1D5DC /* SmallWatchDMS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SmallWatchDMS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D9D892DB25FF6B4C00A1D5DC /* SmallWatchDMS WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SmallWatchDMS WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D9D892E025FF6B4D00A1D5DC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D9D892E225FF6B4D00A1D5DC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D9D892E725FF6B4E00A1D5DC /* SmallWatchDMS WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "SmallWatchDMS WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D9D892EC25FF6B4E00A1D5DC /* SmallDMSApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmallDMSApp.swift; sourceTree = "<group>"; };
+		D9D892EE25FF6B4E00A1D5DC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		D9D892F625FF6B4F00A1D5DC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D9D892F925FF6B4F00A1D5DC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		D9D892FB25FF6B4F00A1D5DC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D9EE7AB325F0CBF100A38949 /* SmallDMS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SmallDMS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D9EE7AB625F0CBF100A38949 /* SmallDMSApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmallDMSApp.swift; sourceTree = "<group>"; };
 		D9EE7AB825F0CBF100A38949 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -27,6 +87,13 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		D9D892E425FF6B4E00A1D5DC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		D9EE7AB025F0CBF100A38949 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -37,10 +104,41 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D9D892DF25FF6B4C00A1D5DC /* SmallWatchDMS WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				D9D892E025FF6B4D00A1D5DC /* Assets.xcassets */,
+				D9D892E225FF6B4D00A1D5DC /* Info.plist */,
+			);
+			path = "SmallWatchDMS WatchKit App";
+			sourceTree = "<group>";
+		};
+		D9D892EB25FF6B4E00A1D5DC /* SmallWatchDMS WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				D9D892EC25FF6B4E00A1D5DC /* SmallDMSApp.swift */,
+				D9D892EE25FF6B4E00A1D5DC /* ContentView.swift */,
+				D9D892F625FF6B4F00A1D5DC /* Assets.xcassets */,
+				D9D892FB25FF6B4F00A1D5DC /* Info.plist */,
+				D9D892F825FF6B4F00A1D5DC /* Preview Content */,
+			);
+			path = "SmallWatchDMS WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		D9D892F825FF6B4F00A1D5DC /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				D9D892F925FF6B4F00A1D5DC /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
 		D9EE7AAA25F0CBF100A38949 = {
 			isa = PBXGroup;
 			children = (
 				D9EE7AB525F0CBF100A38949 /* SmallDMS */,
+				D9D892DF25FF6B4C00A1D5DC /* SmallWatchDMS WatchKit App */,
+				D9D892EB25FF6B4E00A1D5DC /* SmallWatchDMS WatchKit Extension */,
 			);
 			sourceTree = "<group>";
 		};
@@ -48,6 +146,9 @@
 			isa = PBXGroup;
 			children = (
 				D9EE7AB325F0CBF100A38949 /* SmallDMS.app */,
+				D9D892D825FF6B4C00A1D5DC /* SmallWatchDMS.app */,
+				D9D892DB25FF6B4C00A1D5DC /* SmallWatchDMS WatchKit App.app */,
+				D9D892E725FF6B4E00A1D5DC /* SmallWatchDMS WatchKit Extension.appex */,
 			);
 			name = Products;
 			path = ..;
@@ -79,6 +180,57 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		D9D892D725FF6B4C00A1D5DC /* SmallWatchDMS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D9D8930725FF6B4F00A1D5DC /* Build configuration list for PBXNativeTarget "SmallWatchDMS" */;
+			buildPhases = (
+				D9D892D625FF6B4C00A1D5DC /* Resources */,
+				D9D892FF25FF6B4F00A1D5DC /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D9D892DE25FF6B4C00A1D5DC /* PBXTargetDependency */,
+			);
+			name = SmallWatchDMS;
+			productName = SmallWatchDMS;
+			productReference = D9D892D825FF6B4C00A1D5DC /* SmallWatchDMS.app */;
+			productType = "com.apple.product-type.application.watchapp2-container";
+		};
+		D9D892DA25FF6B4C00A1D5DC /* SmallWatchDMS WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D9D8930625FF6B4F00A1D5DC /* Build configuration list for PBXNativeTarget "SmallWatchDMS WatchKit App" */;
+			buildPhases = (
+				D9D892D925FF6B4C00A1D5DC /* Resources */,
+				D9D8930225FF6B4F00A1D5DC /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D9D892EA25FF6B4E00A1D5DC /* PBXTargetDependency */,
+			);
+			name = "SmallWatchDMS WatchKit App";
+			productName = "SmallWatchDMS WatchKit App";
+			productReference = D9D892DB25FF6B4C00A1D5DC /* SmallWatchDMS WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		D9D892E625FF6B4E00A1D5DC /* SmallWatchDMS WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D9D8930525FF6B4F00A1D5DC /* Build configuration list for PBXNativeTarget "SmallWatchDMS WatchKit Extension" */;
+			buildPhases = (
+				D9D892E325FF6B4E00A1D5DC /* Sources */,
+				D9D892E425FF6B4E00A1D5DC /* Frameworks */,
+				D9D892E525FF6B4E00A1D5DC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "SmallWatchDMS WatchKit Extension";
+			productName = "SmallWatchDMS WatchKit Extension";
+			productReference = D9D892E725FF6B4E00A1D5DC /* SmallWatchDMS WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
 		D9EE7AB225F0CBF100A38949 /* SmallDMS */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = D9EE7AC225F0CBF300A38949 /* Build configuration list for PBXNativeTarget "SmallDMS" */;
@@ -105,6 +257,15 @@
 				LastSwiftUpdateCheck = 1240;
 				LastUpgradeCheck = 1240;
 				TargetAttributes = {
+					D9D892D725FF6B4C00A1D5DC = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					D9D892DA25FF6B4C00A1D5DC = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					D9D892E625FF6B4E00A1D5DC = {
+						CreatedOnToolsVersion = 12.4;
+					};
 					D9EE7AB225F0CBF100A38949 = {
 						CreatedOnToolsVersion = 12.4;
 					};
@@ -124,11 +285,38 @@
 			projectRoot = "";
 			targets = (
 				D9EE7AB225F0CBF100A38949 /* SmallDMS */,
+				D9D892D725FF6B4C00A1D5DC /* SmallWatchDMS */,
+				D9D892DA25FF6B4C00A1D5DC /* SmallWatchDMS WatchKit App */,
+				D9D892E625FF6B4E00A1D5DC /* SmallWatchDMS WatchKit Extension */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		D9D892D625FF6B4C00A1D5DC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D9D892D925FF6B4C00A1D5DC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D9D892E125FF6B4D00A1D5DC /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D9D892E525FF6B4E00A1D5DC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D9D892FA25FF6B4F00A1D5DC /* Preview Assets.xcassets in Resources */,
+				D9D892F725FF6B4F00A1D5DC /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		D9EE7AB125F0CBF100A38949 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -141,6 +329,16 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		D9D892E325FF6B4E00A1D5DC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D966A1E225FF6E750034F516 /* NetworkManager.swift in Sources */,
+				D9D892EF25FF6B4E00A1D5DC /* ContentView.swift in Sources */,
+				D9D892ED25FF6B4E00A1D5DC /* SmallDMSApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		D9EE7AAF25F0CBF100A38949 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -154,7 +352,134 @@
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		D9D892DE25FF6B4C00A1D5DC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D9D892DA25FF6B4C00A1D5DC /* SmallWatchDMS WatchKit App */;
+			targetProxy = D9D892DD25FF6B4C00A1D5DC /* PBXContainerItemProxy */;
+		};
+		D9D892EA25FF6B4E00A1D5DC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D9D892E625FF6B4E00A1D5DC /* SmallWatchDMS WatchKit Extension */;
+			targetProxy = D9D892E925FF6B4E00A1D5DC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
 /* Begin XCBuildConfiguration section */
+		D9D892FD25FF6B4F00A1D5DC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = C2JSJLJ4FN;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jeonggo.SmallWatchDMS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		D9D892FE25FF6B4F00A1D5DC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = C2JSJLJ4FN;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jeonggo.SmallWatchDMS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		D9D8930025FF6B4F00A1D5DC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = C2JSJLJ4FN;
+				IBSC_MODULE = SmallWatchDMS_WatchKit_Extension;
+				INFOPLIST_FILE = "SmallWatchDMS WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jeonggo.SmallWatchDMS.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 7.2;
+			};
+			name = Debug;
+		};
+		D9D8930125FF6B4F00A1D5DC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = C2JSJLJ4FN;
+				IBSC_MODULE = SmallWatchDMS_WatchKit_Extension;
+				INFOPLIST_FILE = "SmallWatchDMS WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jeonggo.SmallWatchDMS.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 7.2;
+			};
+			name = Release;
+		};
+		D9D8930325FF6B4F00A1D5DC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"SmallWatchDMS WatchKit Extension/Preview Content\"";
+				DEVELOPMENT_TEAM = C2JSJLJ4FN;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "SmallWatchDMS WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.jeonggo.SmallWatchDMS.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 7.2;
+			};
+			name = Debug;
+		};
+		D9D8930425FF6B4F00A1D5DC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"SmallWatchDMS WatchKit Extension/Preview Content\"";
+				DEVELOPMENT_TEAM = C2JSJLJ4FN;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "SmallWatchDMS WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.jeonggo.SmallWatchDMS.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 7.2;
+			};
+			name = Release;
+		};
 		D9EE7AC025F0CBF300A38949 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -318,6 +643,33 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		D9D8930525FF6B4F00A1D5DC /* Build configuration list for PBXNativeTarget "SmallWatchDMS WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D9D8930325FF6B4F00A1D5DC /* Debug */,
+				D9D8930425FF6B4F00A1D5DC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D9D8930625FF6B4F00A1D5DC /* Build configuration list for PBXNativeTarget "SmallWatchDMS WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D9D8930025FF6B4F00A1D5DC /* Debug */,
+				D9D8930125FF6B4F00A1D5DC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D9D8930725FF6B4F00A1D5DC /* Build configuration list for PBXNativeTarget "SmallWatchDMS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D9D892FD25FF6B4F00A1D5DC /* Debug */,
+				D9D892FE25FF6B4F00A1D5DC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		D9EE7AAE25F0CBF100A38949 /* Build configuration list for PBXProject "SmallDMS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
